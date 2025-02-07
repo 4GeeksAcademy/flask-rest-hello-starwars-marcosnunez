@@ -21,7 +21,7 @@ The following steps are automatically runned withing gitpod, if you are doing a 
 
 ```sh
 pipenv install;
-psql -U root -c 'CREATE DATABASE example;'
+psql -U root -c 'CREATE DATABASE example';
 pipenv run init;
 pipenv run migrate;
 pipenv run upgrade;
